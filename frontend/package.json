@@ -1,0 +1,38 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "vite",
+        "build": "vite build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@chakra-ui/react": "^2.3.7",
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "framer-motion": "^7.6.5",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.8",
+        "@vitejs/plugin-react": "^2.2.0",
+        "typescript": "^4.8.4",
+        "vite": "^3.2.3"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "bracketSpacing": true,
+        "bracketSameLine": false,
+        "arrowParens": "always",
+        "printWidth": 100
+    }
+}
